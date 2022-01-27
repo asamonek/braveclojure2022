@@ -1,0 +1,11 @@
+----------------------------------------------------------------------------------
+Exercise 2
+----------------------------------------------------------------------------------
+Write a function that takes a number and adds 100 to it.
+
+Solution:
+
+(defn inc-maker
+	"This function takes a number and add 100 to it!"
+	[number]
+	(+ 100 number))

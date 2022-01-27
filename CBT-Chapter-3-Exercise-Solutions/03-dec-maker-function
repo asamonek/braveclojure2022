@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------
+Exercise 3
+----------------------------------------------------------------------------------
+
+ Write a function, dec-maker, that works exactly like the function inc-maker except with subtraction:
+
+(def dec9 (dec-maker 9))
+(dec9 10)
+; => 1
+
+Solution:
+
+(defn dec-maker
+	"This function takes a number and subtracts it from another number."
+	[number]
+	#(- % number))
+(def dec3 (dec-maker 3))

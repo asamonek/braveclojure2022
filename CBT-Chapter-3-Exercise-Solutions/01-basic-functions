@@ -1,0 +1,12 @@
+----------------------------------------------------------------------------------
+Exercise 1
+----------------------------------------------------------------------------------
+Use the str, vector, list, hash-map, and hash-set functions.
+
+Solution:
+
+(str "I like pie " "I like cake, " "I like anything you bake!")
+(vector :element-one "element two" (str "element " 3))
+(list 1 "two" :three 4)
+(hash-map :coffee "black" :cookie "chocolate")
+(hash-set "lollipop" 3 :coffee)
